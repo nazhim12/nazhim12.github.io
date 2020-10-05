@@ -1,0 +1,61 @@
+body {
+   background-color:black;
+}
+.jumbotron{
+  position: relative;
+  background-color:gold;
+
+  
+  height: 13cm;
+  color:black
+}
+.jumbotron2{
+  position: relative;
+  background-color:gold;
+  height: 25cm;
+}
+
+.carousel-item{
+  width: 100%;
+  height: 600px;
+}
+.carousel-item .display-4{
+  margin-top: -400px;
+  color: gold;
+}
+.card{
+  margin-left: 100px;
+  margin-bottom: 50px;
+
+}
+.form-group{
+  margin-left: 2cm;
+}
+
+.jumbotron4{
+  position: relative;
+  background-color: gold
+}
+.form-inline{
+  color: gold;
+}
+@media( min-width: 600px){
+  .card{
+    display: flex;
+    justify-content: space-between;
+    display:flex ;
+    flex-wrap: wrap;
+  }
+}
+
+.card{
+  color:gold;
+  background-color:black;
+  width: 30%;
+}
+
+@media screen and (max-width: 700px) {
+  .container .card {   
+    flex-direction: column;
+  }
+}
